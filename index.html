@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawan Rathnayake | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            
+            emailjs.init("A-c0IFRsTeeEKGy66");
+        })();
+    </script>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="assets/logo.png" alt="Logo">
+            Pawan.
+        </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a> 
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a> 
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Pawan Rathnayake</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Creative Web Developer, Software Developer & UI/UX Enthusiast. I love exploring innovative ideas and building meaningful projects.</p>
+            
+            <div class="social-media">
+                <a href="https://wa.me/94766600280" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/pawan-rathnayake-3a0571399?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/_pawan_binuga_?igsh=MXh2YzkzczJjemptcg%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/pawan-CS7" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            
+            <a href="assets/cv.pdf" download class="btn">Resume <i class='bx bxs-download'></i></a>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/hero.png" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            
+            <p class="about-text">
+                I am an enthusiastic and dedicated Computer Science undergraduate at General Sir John Kotelawala Defence University (KDU). I enjoy designing modern websites, building creative interfaces, and improving my skills in software development.
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="education">
+                <ul>
+                    <li><span>Undergraduate</span>Computer Science undergraduate at KDU.</li>
+                    <li><span>Certification</span>Completing CCNA: Introduction to Networks.</li>
+                    <li><span>School Level Qualifications</span>Possess a strong academic foundation, successfully achieving high grades in G.C.E. Ordinary Level (2019) and Advanced Level (Physical Science)(2023), completed at St. Thomas' College, Matara.</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Volunteering</span>Currently volunteering at IEEE KDU.</li>
+                    <li><span>School Level Service & Leadership</span>School Prefect & Volunteer Contributor, St. Thomas College Matara</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Web Development</h3>
+
+                <div class="skills-box web-dev-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3><i class='bx bxl-html5'></i> HTML <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3><i class='bx bxl-css3'></i> CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3><i class='bx bxl-javascript'></i> JavaScript <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3><i class='bx bxl-php'></i> PHP (Backend) <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                         <div class="progress">
+                            <h3><i class='bx bxs-data'></i> MySQL (DB) <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Programming languages & Other skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="radial-bars-container">
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">60%</div>
+                                <div class="text">Java</div>
+                            </div>
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">80%</div>
+                                <div class="text">C++</div>
+                            </div>
+                            <div class="radial-bar">
+                                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                                </svg>
+                                <div class="percentage">40%</div>
+                                <div class="text">Networking</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="title" style="margin-top: 2rem;">Communication Skills</h3>
+                <div class="skills-box communication-box">
+                    <div class="comm-item">
+                        <i class='bx bx-check-circle'></i> English 
+                    </div>
+                    <div class="comm-item">
+                        <i class='bx bx-check-circle'></i> Sinhala (Native)
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Building fast, secure, and responsive websites tailored to your specific needs.</p>
+                <a href="javascript:void(0)" class="btn" onclick="openModal('modal-1')">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-palette'></i>
+                <h3>UI/UX Design</h3>
+                <p>Creating intuitive and visually appealing user interfaces for better user experience.</p>
+                <a href="javascript:void(0)" class="btn" onclick="openModal('modal-2')">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-share-alt'></i>
+                <h3>Social Media Mgt.</h3>
+                <p>Growing your brand presence online with strategic content and engagement.</p>
+                <a href="javascript:void(0)" class="btn" onclick="openModal('modal-4')">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-terminal'></i>
+                <h3>Simple Web Apps</h3>
+                <p>Developing functional and efficient software tools for business operations.</p>
+                <a href="javascript:void(0)" class="btn" onclick="openModal('modal-5')">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="service-modal" id="modal-1">
+        <div class="modal-content">
+            <i class='bx bx-x modal-close' onclick="closeModal('modal-1')"></i>
+            <h3><i class='bx bx-code-alt'></i> Web Development</h3>
+            <p>I specialize in building professional websites. My process includes:</p>
+            <ul>
+                <li><i class='bx bx-check'></i> Custom HTML/CSS/JS development</li>
+                <li><i class='bx bx-check'></i> Responsive layouts (Mobile/Desktop)</li>
+                <li><i class='bx bx-check'></i> Performance optimization</li>
+                <li><i class='bx bx-check'></i> SEO friendly structure</li>
+            </ul>
+        </div>
+    </div>
+    <div class="service-modal" id="modal-2">
+        <div class="modal-content">
+            <i class='bx bx-x modal-close' onclick="closeModal('modal-2')"></i>
+            <h3><i class='bx bx-palette'></i> UI/UX Design</h3>
+            <p>Designing user-centric interfaces that look great and work smoothly:</p>
+            <ul>
+                <li><i class='bx bx-check'></i> Wireframing & Prototyping</li>
+                <li><i class='bx bx-check'></i> Mobile App Design</li>
+                <li><i class='bx bx-check'></i> User Research</li>
+                <li><i class='bx bx-check'></i> Modern Color Theory</li>
+            </ul>
+        </div>
+    </div>
+    <div class="service-modal" id="modal-4">
+        <div class="modal-content">
+            <i class='bx bx-x modal-close' onclick="closeModal('modal-4')"></i>
+            <h3><i class='bx bx-share-alt'></i> Social Media Mgt.</h3>
+            <p>Managing your online presence to boost engagement:</p>
+            <ul>
+                <li><i class='bx bx-check'></i> Content Creation & Planning</li>
+                <li><i class='bx bx-check'></i> Post Scheduling</li>
+                <li><i class='bx bx-check'></i> Audience Engagement</li>
+                <li><i class='bx bx-check'></i> Analytics Reports</li>
+            </ul>
+        </div>
+    </div>
+    <div class="service-modal" id="modal-5">
+        <div class="modal-content">
+            <i class='bx bx-x modal-close' onclick="closeModal('modal-5')"></i>
+            <h3><i class='bx bx-terminal'></i> Simple Software/Apps</h3>
+            <p>Custom lightweight software solutions:</p>
+            <ul>
+                <li><i class='bx bx-check'></i> Inventory Management Tools</li>
+                <li><i class='bx bx-check'></i> Simple Database Applications</li>
+                <li><i class='bx bx-check'></i> CRUD Operations</li>
+                <li><i class='bx bx-check'></i> User Authentication Systems</li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Featured <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="assets/project cover image/1.png" alt="Task Management System">
+                <div class="project-info">
+                    <h3>Task Mgt. System</h3>
+                    <p>Web-based collaborative workflow platform.</p>
+                    <a href="javascript:void(0)" class="btn" onclick="openModal('proj-1')">See More</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/project cover image/2.jpeg" alt="Smart Chess">
+                <div class="project-info">
+                    <h3>Smart Chess System</h3>
+                    <p>Remote play chess software with voice commands.</p>
+                    <a href="javascript:void(0)" class="btn" onclick="openModal('proj-2')">See More</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/project cover image/3.jpeg" alt="NutriX App">
+                <div class="project-info">
+                    <h3>NutriX Mobile App</h3>
+                    <p>Supplement & nutrition e-commerce prototype.</p>
+                    <a href="javascript:void(0)" class="btn" onclick="openModal('proj-3')">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="service-modal" id="proj-1">
+        <div class="modal-content project-modal-content">
+            <i class='bx bx-x modal-close' onclick="closeModal('proj-1')"></i>
+            <img src="assets/projects/project1.jpeg" alt="Project 1 Detail" class="modal-img">
+            <h3>Task Management System</h3>
+            <p>A comprehensive Task Management System developed as a university web project. It allows teams to collaborate efficiently by assigning tasks, tracking real-time progress, and managing deadlines within a unified interface.</p>
+        </div>
+    </div>
+
+    <div class="service-modal" id="proj-2">
+        <div class="modal-content project-modal-content">
+            <i class='bx bx-x modal-close' onclick="closeModal('proj-2')"></i>
+            <img src="assets/projects/project2.png" alt="Project 2 Detail" class="modal-img">
+            <h3>Smart Chess System</h3>
+            <p>A smart hardware-integrated software project that enables real-time chess matches between two players in different locations. The software gives voice instructions according to the chess piece positions.</p>
+        </div>
+    </div>
+
+    <div class="service-modal" id="proj-3">
+        <div class="modal-content project-modal-content">
+            <i class='bx bx-x modal-close' onclick="closeModal('proj-3')"></i>
+            <img src="assets/projects/project3.jpeg" alt="Project 3 Detail" class="modal-img">
+            <h3>NutriX Mobile App</h3>
+            <p>A feature-rich mobile application prototype designed for the health and nutrition market. Users can browse supplements, view detailed nutritional info, manage their cart, and simulate the checkout process.</p>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-left">
+                <h2 class="heading">Contact <span>Me</span></h2>
+                <p class="contact-text">Feel free to reach out to me for any questions or opportunities!</p>
+                
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <i class='bx bxs-envelope'></i>
+                        <p>pawanrathnayake22@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bxs-phone'></i>
+                        <p>0717195351 (Call Only)</p>
+                    </div>
+                </div>
+
+                <div class="contact-icons">
+                    <a href="https://wa.me/94766600280" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.linkedin.com/in/pawan-rathnayake-3a0571399" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/_pawan_binuga_" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://github.com/pawan-CS7" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <form id="contactForm">
+                    <div class="input-box">
+                        <input type="text" name="from_name" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="from_email" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="number" name="mobile_no" placeholder="Your Mobile No" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="subject" placeholder="Email Subject">
+                    </div>
+                    <textarea name="message" id="" cols="30" rows="6" placeholder="Your Message" required></textarea>
+                    
+                    <p style="font-size: 1.2rem; color: #ccc; margin-top: 1rem;">Submit your message to contact me directly.</p>
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-line-wrapper">
+                <span class="line"></span>
+                <a href="javascript:void(0)" class="footer-logo">
+                    <img src="assets/logo.png" alt="Logo">
+                </a>
+                <span class="line"></span>
+            </div>
+            
+            <p class="copyright">
+                &copy; 2025 Pawan Rathnayake . All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
